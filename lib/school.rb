@@ -6,13 +6,13 @@ def School
     @name = name
   end
   
-  ROSTER = {}
+  roster = {}
   def roster
-   ROSTER
+   roster
   end
   
   def add_student(nustud_name, grade)
-   ROSTER[grade] = new_student
+   roster[grade] = new_student
   end
   
 end

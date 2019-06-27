@@ -7,7 +7,7 @@ def School
     @roster = {}
   end
   
-  att_reader 
+  attr_accessor: 
   
   # School
   # roster_h = {}

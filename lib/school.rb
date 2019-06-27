@@ -7,7 +7,7 @@ def School
     @roster = {}
   end
   
-  attr_accessor: 
+  attr_accessor :name, :roster
   
   # School
   # roster_h = {}

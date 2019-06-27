@@ -10,8 +10,7 @@ class School
   binding.pry
   attr_accessor :name, :roster
   
-  # School
-  # roster = {}
+
   def roster
    @roster
   end

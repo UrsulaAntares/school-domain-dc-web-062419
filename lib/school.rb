@@ -22,9 +22,9 @@ class School
   #binding.pry
   
   def grade(grade)
-    puts @roster[grade]
-    @roster[grade]
-    binding.pry
+    puts @roster[grade].sort
+    @roster[grade].sort
+    # binding.pry
   end
 end
   

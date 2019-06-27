@@ -29,7 +29,7 @@ class School
   
   def sort
     @roster.each {|k,v| @roster[k]=(v.sort) }
-   binding.pry 
+  # binding.pry 
   end  
 end
   

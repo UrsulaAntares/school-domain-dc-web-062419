@@ -6,9 +6,9 @@ def School
     @name = name
   end
   
-  SCHOOL = {}
+  roster_h = {}
   def roster
-   SCHOOL
+   roster_h
   end
   
   def add_student(nustud_name, grade)

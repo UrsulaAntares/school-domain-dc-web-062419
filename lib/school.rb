@@ -7,6 +7,8 @@ def School
     @roster = {}
   end
   
+  att_reader 
+  
   # School
   # roster_h = {}
   def roster

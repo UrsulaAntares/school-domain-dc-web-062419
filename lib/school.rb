@@ -7,10 +7,11 @@ def School
     @roster = {}
   end
   
+  binding.pry
   attr_accessor :name, :roster
   
   # School
-  # roster_h = {}
+  # roster = {}
   def roster
    @roster
   end

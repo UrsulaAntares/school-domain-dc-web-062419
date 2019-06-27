@@ -26,6 +26,10 @@ class School
     @roster[grade].sort
     # binding.pry
   end
+  
+  def sort
+   binding.pry 
+  end  
 end
   
 

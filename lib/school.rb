@@ -21,8 +21,8 @@ class School
   end
   #binding.pry
   
-  def grade
-    puts @roster
+  def grade(grade)
+    puts @roster[grade]
     binding
   end
 end

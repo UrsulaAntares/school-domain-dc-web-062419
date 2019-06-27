@@ -23,7 +23,8 @@ class School
   
   def grade(grade)
     puts @roster[grade]
-    binding
+    @roster[grade]
+    binding.pry
   end
 end
   

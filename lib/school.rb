@@ -20,8 +20,8 @@ class School
    roster[grade] << new_student
   end
   
-  def add_student=(nustud_name, grade)
-  end
+  # def add_student=(nustud_name, grade)
+  # end
 end
   
 

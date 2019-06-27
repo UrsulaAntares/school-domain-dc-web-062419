@@ -7,7 +7,7 @@ class School
     @roster = {}
   end
   
-  binding.pry
+  #binding.pry
   attr_accessor :name, :roster
   
 

@@ -1,7 +1,7 @@
 # code here!
 require 'pry'
 
-def School
+class School
   def initialize(name)
     @name = name
     @roster = {}
@@ -24,5 +24,5 @@ end
   
 
 
-this = School.new("TCW")
-puts this
+# this = School.new("TCW")
+# puts this

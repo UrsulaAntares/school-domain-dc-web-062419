@@ -20,8 +20,10 @@ class School
    @roster[grade] << new_student
   end
   #binding.pry
+  
   def grade
-    
+    puts @roster
+    binding
   end
 end
   

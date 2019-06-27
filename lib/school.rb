@@ -20,5 +20,9 @@ def School
    roster[grade] = []
    roster[grade] << new_student
   end
-  
 end
+  
+
+
+this = School.new("TCW")
+puts this

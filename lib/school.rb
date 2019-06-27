@@ -19,9 +19,10 @@ class School
    roster[grade] ||= []
    roster[grade] << new_student
   end
-  binding.pry
-  # def add_student=(nustud_name, grade)
-  # end
+  #binding.pry
+  def grade
+    
+  end
 end
   
 
